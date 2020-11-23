@@ -56,22 +56,23 @@ function App() {
       <Header
         titulo='Clima React App'
       />
-      <div className="contenedor-form">
-        <div className="container">
-          <div className="row">
-            <div className="col m6 s12">
-              <Formulario
-                busqueda={busqueda}
-                guardarBusqueda={guardarBusqueda}
-                guardarConsultar={guardarConsultar}
-              />
-            </div>
-            <div className="col m6 s12">
-              {componente}
+        {error? <Error mensaje="Ambos campos son obligatorios"/>: null}
+        <div className="contenedor-form">
+          <div className="container">
+            <div className="row">
+              <div className="col m6 s12">
+                <Formulario
+                  busqueda={busqueda}
+                  guardarBusqueda={guardarBusqueda}
+                  guardarConsultar={guardarConsultar}
+                />
+              </div>
+              <div className="col m6 s12">
+                {componente}
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </Fragment>
   );
 }
