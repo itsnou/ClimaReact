@@ -39,7 +39,6 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) =>{
         <form
             onSubmit={handleSubmit}
         >
-            {error? <p className="red darken-4 error">Todos los campos son obligatorios</p>: null}
             <div className="input-field col 12">
                 <input 
                     type="text"
