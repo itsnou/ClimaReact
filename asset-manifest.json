@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/itsnou/ClimaReact/static/css/main.5ae21095.chunk.css",
+    "main.js": "/itsnou/ClimaReact/static/js/main.fb0e2d9e.chunk.js",
+    "main.js.map": "/itsnou/ClimaReact/static/js/main.fb0e2d9e.chunk.js.map",
+    "runtime-main.js": "/itsnou/ClimaReact/static/js/runtime-main.51191e71.js",
+    "runtime-main.js.map": "/itsnou/ClimaReact/static/js/runtime-main.51191e71.js.map",
+    "static/js/2.d1e177c1.chunk.js": "/itsnou/ClimaReact/static/js/2.d1e177c1.chunk.js",
+    "static/js/2.d1e177c1.chunk.js.map": "/itsnou/ClimaReact/static/js/2.d1e177c1.chunk.js.map",
+    "static/js/3.32688f5f.chunk.js": "/itsnou/ClimaReact/static/js/3.32688f5f.chunk.js",
+    "static/js/3.32688f5f.chunk.js.map": "/itsnou/ClimaReact/static/js/3.32688f5f.chunk.js.map",
+    "index.html": "/itsnou/ClimaReact/index.html",
+    "static/css/main.5ae21095.chunk.css.map": "/itsnou/ClimaReact/static/css/main.5ae21095.chunk.css.map",
+    "static/js/2.d1e177c1.chunk.js.LICENSE.txt": "/itsnou/ClimaReact/static/js/2.d1e177c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51191e71.js",
+    "static/js/2.d1e177c1.chunk.js",
+    "static/css/main.5ae21095.chunk.css",
+    "static/js/main.fb0e2d9e.chunk.js"
+  ]
+}
