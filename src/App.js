@@ -40,7 +40,8 @@ function App() {
       }
     }
     consultarAPI();
-  },[consultar,ciudad,pais])
+    // eslint-disable-next-line
+  },[consultar])
 
   let componente;
   if(error) {
@@ -56,7 +57,6 @@ function App() {
       <Header
         titulo='Clima React App'
       />
-        {error? <Error mensaje="Ambos campos son obligatorios"/>: null}
         <div className="contenedor-form">
           <div className="container">
             <div className="row">
